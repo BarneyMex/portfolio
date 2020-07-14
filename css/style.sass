@@ -1,5 +1,6 @@
 $first-color: #606060
 $second-color: #1abb9c
+$lite-color: #d0d0d0
 
 * 
     margin: 0
@@ -56,4 +57,57 @@ $second-color: #1abb9c
             font-size: 16px
             text-transform: none
 
-            
+.dark-header 
+    font-family: Raleway
+    font-size: 16px
+    line-height: 22px
+    font-weight: 800
+    text-transform: uppercase
+    color: $first-color
+
+.lite-header                 
+    font-family: Raleway
+    font-size: 16px
+    line-height: 22px
+    font-weight: 800
+    text-transform: uppercase
+    color: $lite-color
+
+.service
+    width: 262px
+    min-height: 304px
+    border: 1px solid #e1e1e1   
+    & h3 
+        font-family: Raleway
+        font-size: 15px
+        line-height: 26px
+        font-weight: 800
+        text-transform: uppercase
+        color: $first-color
+    & p 
+        font-family: Raleway
+        font-size: 14px
+        line-height: 25px
+        font-weight: 500
+        color: #7a7a7a      
+
+.our-process
+    background: url(../img/background.png) no-repeat
+    &_top
+        & p 
+            font-family: Raleway
+            font-size: 14px
+            line-height: 25px
+            font-weight: 500
+            color: $lite-color
+
+.steps
+    &-list
+        & p 
+            font-family: Raleway
+            font-size: 14px
+            line-height: 22px
+            font-weight: 800
+            text-transform: uppercase
+            color: #dddddd
+

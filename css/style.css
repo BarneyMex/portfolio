@@ -64,4 +64,66 @@
   font-size: 16px;
   text-transform: none;
 }
+
+.dark-header {
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #606060;
+}
+
+.lite-header {
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #d0d0d0;
+}
+
+.service {
+  width: 262px;
+  min-height: 304px;
+  border: 1px solid #e1e1e1;
+}
+
+.service h3 {
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #606060;
+}
+
+.service p {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+.our-process {
+  background: url(../img/background.png) no-repeat;
+}
+
+.our-process_top p {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #d0d0d0;
+}
+
+.steps-list p {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #dddddd;
+}
 /*# sourceMappingURL=style.css.map */
