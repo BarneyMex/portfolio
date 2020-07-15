@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.header {
+  min-height: 109px;
+  background-color: #f5f5f5;
+}
+
 .menu-link {
   color: #606060;
   text-transform: uppercase;
@@ -107,7 +112,8 @@
 }
 
 .our-process {
-  background: url(../img/background.png) no-repeat;
+  background: url(../img/process_background.jpg) no-repeat;
+  min-height: 408px;
 }
 
 .our-process_top p {
@@ -125,5 +131,113 @@
   font-weight: 800;
   text-transform: uppercase;
   color: #dddddd;
+}
+
+.projects-list h3 {
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #606060;
+}
+
+.projects-list span {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #1abb9c;
+}
+
+.projects-list p {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+.feedback {
+  background: url(../img/feedback_background.jpg) no-repeat;
+  min-height: 320px;
+}
+
+.feedback-one p {
+  font-family: Raleway;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 300;
+  color: #d8d8d8;
+}
+
+.feedback-one cite {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1abb9c;
+}
+
+.journals-name {
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 800;
+  color: #606060;
+}
+
+.journals-name span {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #1abb9c;
+}
+
+.journals-text {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+.footer-top {
+  font-family: Raleway;
+  min-height: 379px;
+  background-color: #373737;
+}
+
+.footer-top_part h3 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}
+
+.footer-top_part p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #cacaca;
+}
+
+.footer-top_part cite {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #cacaca;
+}
+
+.footer-bottom {
+  min-height: 91px;
+  background-color: #333333;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #cacaca;
 }
 /*# sourceMappingURL=style.css.map */

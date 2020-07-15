@@ -1,11 +1,15 @@
 $first-color: #606060
 $second-color: #1abb9c
 $lite-color: #d0d0d0
+$p-color: #7a7a7a 
 
 * 
     margin: 0
     padding: 0
 
+.header
+    min-height: 109px
+    background-color: #f5f5f5    
 
 .menu-link 
     color: $first-color
@@ -89,10 +93,11 @@ $lite-color: #d0d0d0
         font-size: 14px
         line-height: 25px
         font-weight: 500
-        color: #7a7a7a      
+        color: $p-color     
 
 .our-process
-    background: url(../img/background.png) no-repeat
+    background: url(../img/process_background.jpg) no-repeat
+    min-height: 408px
     &_top
         & p 
             font-family: Raleway
@@ -111,3 +116,97 @@ $lite-color: #d0d0d0
             text-transform: uppercase
             color: #dddddd
 
+
+.projects
+    &-list
+        & h3 
+            font-family: Raleway
+            font-size: 15px
+            line-height: 26px
+            font-weight: 800
+            text-transform: uppercase
+            color: $first-color
+        & span
+            font-family: Raleway
+            font-size: 12px
+            line-height: 26px
+            font-weight: 500
+            color: $second-color
+        & p 
+            font-family: Raleway
+            font-size: 14px
+            line-height: 25px
+            font-weight: 500
+            color: $p-color
+
+.feedback
+    background: url(../img/feedback_background.jpg) no-repeat
+    min-height: 320px
+
+.feedback-one
+    & p 
+        font-family: Raleway
+        font-size: 20px
+        line-height: 35px
+        font-weight: 300
+        color: #d8d8d8
+    & cite 
+        font-family: Raleway
+        font-size: 12px
+        line-height: 22px
+        font-weight: 800
+        text-transform: uppercase
+        color: $second-color
+
+
+.journals
+    &-list
+
+    &-name
+        font-family: Raleway
+        font-size: 16px
+        line-height: 26px
+        font-weight: 800
+        color: $first-color
+        & span
+            font-size: 12px
+            line-height: 20px
+            font-weight: 500
+            color: $second-color
+    &-text 
+        font-family: Raleway
+        font-size: 14px
+        line-height: 25px
+        font-weight: 500
+        color: $p-color
+
+.footer-top
+    font-family: Raleway
+    min-height: 379px
+    background-color: #373737
+    &_part 
+        & h3
+            font-size: 14px
+            line-height: 22px
+            font-weight: 700
+            text-transform: uppercase
+            color: #f0f0f0
+        & p 
+            font-size: 14px
+            line-height: 24px
+            font-weight: 500
+            color: #cacaca
+        & cite
+            font-size: 12px
+            line-height: 25px
+            font-weight: 500
+            color: #cacaca
+    
+.footer-bottom
+    min-height: 91px
+    background-color: #333333
+    font-family: Raleway
+    font-size: 14px
+    line-height: 22px
+    font-weight: 500
+    color: #cacaca
